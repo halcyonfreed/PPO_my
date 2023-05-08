@@ -12,6 +12,7 @@ $$- \frac 1 N \sum_{n=1}^{N} log(\pi(a^n|s^n)) A^{\pi}(s^n, a^n)$$
 本文档主要包括:
 - A2C error 的实现。
 - 主函数（测试函数）
+@autor: 20230508
 """
 from collections import namedtuple
 import torch
